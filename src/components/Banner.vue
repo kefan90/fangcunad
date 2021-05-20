@@ -29,8 +29,21 @@
 </template>
 
 <script>
+import Swiper from 'swiper'
+
 export default {
-  name: 'Banner'
+  name: 'Banner',
+  mounted () {
+    //轮播图
+    new Swiper('.swiper-container', {
+      loop: true,
+      // 如果需要分页器
+      pagination: '.swiper-pagination',
+      // 如果需要前进后退按钮
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev'
+    })
+  }
 }
 </script>
 

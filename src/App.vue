@@ -7,13 +7,13 @@
           <a><img src="./img/log.jpg" alt=""></a>
         </div>
         <ul class="">
-          <li><a>网站首页</a></li>
-          <li><a>公司简介</a></li>
-          <li><a>服务优势</a></li>
-          <li><a>经典案例</a></li>
-          <li><a>合作企业</a></li>
-          <li><a>联系我们</a></li>
-          <li><a>淘宝店铺</a></li>
+          <li><router-link to="/" tag="a">网站首页</router-link></li>
+          <li><router-link to="/profile" tag="a">公司简介</router-link></li>
+          <li><router-link to="/adv" tag="a">服务优势</router-link></li>
+          <li><router-link to="/case" tag="a">经典案例</router-link></li>
+          <li><router-link to="/cooperative" tag="a">合作企业</router-link></li>
+          <li><router-link to="/contactus" tag="a">联系我们</router-link></li>
+          <li><a href="https://fangcunad.taobao.com/" target="_blank">淘宝店铺</a></li>
         </ul>
         <div class="tel">
           <img src="./img/header_telbg.png" alt="">
@@ -25,18 +25,7 @@
         </div>
       </div>
     </div>
-    <!-- 轮播图 -->
-    <Banner/>
-    <!-- 案例 -->
-    <caseList :cases="cases"/>
-    <!-- 服务范围 -->
-    <Sever/>
-    <!-- 服务流程 -->
-    <Flow/>
-    <!-- 关于页面 -->
-    <About/>
-    <!-- 合作伙伴 -->
-    <partnerList :pimgs="pimgs"/>
+    <router-view></router-view>
     <!-- 页面底部 -->
     <div class="foot">
       <div class="content">
@@ -45,11 +34,11 @@
           </li>
         </ul>
         <ul class="right">
-          <li><a>网站首页</a></li>
-          <li><a>公司简介</a></li>
-          <li><a>服务优势</a></li>
-          <li><a>联系我们</a></li>
-          <li><a>淘宝店铺</a></li>
+          <li><router-link to="/" tag="a">网站首页</router-link></li>
+          <li><router-link to="/profile" tag="a">公司简介</router-link></li>
+          <li><router-link to="/adv" tag="a">服务优势</router-link></li>
+          <li><router-link to="/contactus" tag="a">联系我们</router-link></li>
+          <li><a href="https://fangcunad.taobao.com/" target="_blank">淘宝店铺</a></li>
         </ul>
       </div>
     </div>
@@ -74,132 +63,14 @@
 </template>
 
 <script>
-import caseList from './components/case/CaseList'
-import partnerList from './components/partner/PartnerList'
-import About from './components/About'
-import Flow from './components/Flow'
-import Sever from './components/Sever'
-import Banner from './components/Banner'
-import Swiper from 'swiper'
-
 export default {
-  data () {
-    return {
-      cases: [
-        {
-          imgSrc: require('./img/case1.jpg'),
-          name1: '西安 | 仰望国际传媒',
-          name2: '门头设计制作'
-        },
-        {
-          imgSrc: require('./img/case1.jpg'),
-          name1: '西安 | 仰望国际传媒',
-          name2: '门头设计制作'
-        }, {
-          imgSrc: require('./img/case1.jpg'),
-          name1: '西安 | 仰望国际传媒',
-          name2: '门头设计制作'
-        }, {
-          imgSrc: require('./img/case1.jpg'),
-          name1: '西安 | 仰望国际传媒',
-          name2: '门头设计制作'
-        }, {
-          imgSrc: require('./img/case1.jpg'),
-          name1: '西安 | 仰望国际传媒',
-          name2: '门头设计制作'
-        }, {
-          imgSrc: require('./img/case1.jpg'),
-          name1: '西安 | 仰望国际传媒',
-          name2: '门头设计制作'
-        }, {
-          imgSrc: require('./img/case1.jpg'),
-          name1: '西安 | 仰望国际传媒',
-          name2: '门头设计制作'
-        }, {
-          imgSrc: require('./img/case1.jpg'),
-          name1: '西安 | 仰望国际传媒',
-          name2: '门头设计制作'
-        }
-      ],
-      pimgs: [
-        {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }, {
-          pImgSrc: require('./img/sxzwfw.jpg'),
-          name: '合作伙伴'
-        }
-      ]
-    }
-  },
-  components: {
-    caseList,
-    partnerList,
-    About,
-    Flow,
-    Sever,
-    Banner
-  },
   mounted () {
     //返回顶部
     window.addEventListener('scroll', this.scrollToTop)
-
-    //轮播图
-    new Swiper('.swiper-container', {
-      loop: true,
-      // 如果需要分页器
-      pagination: '.swiper-pagination',
-      // 如果需要前进后退按钮
-      nextButton: '.swiper-button-next',
-      prevButton: '.swiper-button-prev'
-    })
   },
   destroyed () {
     window.removeEventListener('scroll', this.scrollToTop)
   },
-
   methods: {
     // 点击图片回到顶部方法，加计时器是为了过渡顺滑
     backTop () {
