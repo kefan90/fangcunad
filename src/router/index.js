@@ -6,6 +6,7 @@ import Profile from '../view/Profile'
 import ContactUs from '../view/ContactUs'
 import Cooperative from '../view/Cooperative'
 import Case from '../view/Case'
+import Casegeli from '../view/Casegeli'
 
 Vue.use(Router)
 
@@ -35,6 +36,10 @@ export default new Router({
       path: '/case',
       name: 'Case',
       component: () => import('../view/Case')
+    }, {
+      path: '/casegeli',
+      name: 'Casegeli',
+      component: () => import('../view/Casegeli')
     }
   ]
 })

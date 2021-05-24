@@ -2,7 +2,7 @@
 <div>
   <!-- 大图部分 -->
   <div class="picture">
-    <img src="../img/partner_banner.jpg" alt="">
+    <img src="../assets/partner_banner.jpg" alt="">
   </div>
   <!-- 伙伴部分 -->
   <div class="partner">
@@ -16,58 +16,58 @@
         </div>
         <ul class="partner-list">
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/aqara.jpg" alt="">
+            <img src="../assets/aqara.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/bbndj.jpg" alt="">
+            <img src="../assets/bbndj.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/djkt.jpg" alt="">
+            <img src="../assets/djkt.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/jiangxiaobai.jpg" alt="">
+            <img src="../assets/jiangxiaobai.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
           <li>
-            <img src="../img/sxzwfw.jpg" alt="">
+            <img src="../assets/sxzwfw.jpg" alt="">
           </li>
         </ul>
       </div>

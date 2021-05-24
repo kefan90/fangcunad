@@ -4,7 +4,7 @@
     <div class="nav">
       <div class="content">
         <div class="log">
-          <a><img src="./img/log.jpg" alt=""></a>
+          <a><img src="./assets/log.jpg" alt=""></a>
         </div>
         <ul class="">
           <li><router-link to="/" tag="a">网站首页</router-link></li>
@@ -16,7 +16,7 @@
           <li><a href="https://fangcunad.taobao.com/" target="_blank">淘宝店铺</a></li>
         </ul>
         <div class="tel">
-          <img src="./img/header_telbg.png" alt="">
+          <img src="./assets/header_telbg.png" alt="">
           <p class="tel-1">
             <a href="tel:17030752000">170 3075 2000</a>
             <br>
@@ -45,18 +45,18 @@
     <!-- 侧边部分 -->
     <div class="sidebar">
       <div id="goTop" @click="backTop">
-        <img src="./img/gotop.png" alt="">
+        <img src="./assets/gotop.png" alt="">
       </div>
       <div class="code">
-        <img src="./img/wechat.png" alt="">
+        <img src="./assets/wechat.png" alt="">
         <div class="qr">
-          <img src="./img/QR_code.png" alt="">
+          <img src="./assets/QR_code.png" alt="">
           <p>微信扫一扫</p>
           <p>关注方寸广告</p>
         </div>
       </div>
       <div class="shop">
-        <a><img src="./img/shop.png" alt=""></a>
+        <a><img src="./assets/shop.png" alt=""></a>
       </div>
     </div>
   </div>

@@ -3,7 +3,7 @@
     <div class="content">
       <div class="case-box">
         <div class="case-top">
-          <a href="">案例 Case</a>
+          <router-link to="/case" tag="a" target="_blank">案例 Case</router-link>
         </div>
         <p class="case-text">我们的承诺：不因任何条件、任务困难、任何理由降低标准或耽误工期！</p>
       </div>
@@ -11,7 +11,7 @@
         <CaseItem v-for="(casein, index) in cases" :key="index" :casein="casein" :index="index"/>
       </ul>
       <div class="case-bottom">
-        <a>查询更多 MORE>>></a>
+        <router-link to="/case" tag="a" target="_blank">查询更多 MORE>>></router-link>
       </div>
     </div>
   </div>

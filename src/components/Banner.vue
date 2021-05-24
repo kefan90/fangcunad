@@ -3,22 +3,22 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="../img/sildeshow/1.jpg" alt="">
+          <img src="../assets/sildeshow/1.jpg" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="../img/sildeshow/2.jpg" alt="">
+          <img src="../assets/sildeshow/2.jpg" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="../img/sildeshow/3.jpg" alt="">
+          <img src="../assets/sildeshow/3.jpg" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="../img/sildeshow/4.jpg" alt="">
+          <img src="../assets/sildeshow/4.jpg" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="../img/sildeshow/5.jpg" alt="">
+          <img src="../assets/sildeshow/5.jpg" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="../img/sildeshow/6.jpg" alt="">
+          <img src="../assets/sildeshow/6.jpg" alt="">
         </div>
       </div>
       <div class="swiper-pagination"></div>

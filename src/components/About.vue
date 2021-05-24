@@ -8,11 +8,11 @@
         <p class="about-text">陕西省广告设计行业的领军者，服务2000+品牌企业！</p>
       </div>
       <div class="pic">
-        <img src="../img/about.jpg" alt="">
+        <img src="../assets/about.jpg" alt="">
       </div>
       <div class="about2">
         <div class="pic2">
-          <img src="../img/about2.jpg" alt="">
+          <img src="../assets/about2.jpg" alt="">
         </div>
         <div class="content2">
           <div class="title">西安方寸广告有限公司</div>

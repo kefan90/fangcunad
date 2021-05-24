@@ -28,88 +28,88 @@ export default {
     return {
       cases: [
         {
-          imgSrc: require('../img/case1.jpg'),
+          imgSrc: require('../assets/case1.jpg'),
           name1: '西安 | 仰望国际传媒',
           name2: '门头设计制作'
         },
         {
-          imgSrc: require('../img/case1.jpg'),
+          imgSrc: require('../assets/case1.jpg'),
           name1: '西安 | 仰望国际传媒',
           name2: '门头设计制作'
         }, {
-          imgSrc: require('../img/case1.jpg'),
+          imgSrc: require('../assets/case1.jpg'),
           name1: '西安 | 仰望国际传媒',
           name2: '门头设计制作'
         }, {
-          imgSrc: require('../img/case1.jpg'),
+          imgSrc: require('../assets/case1.jpg'),
           name1: '西安 | 仰望国际传媒',
           name2: '门头设计制作'
         }, {
-          imgSrc: require('../img/case1.jpg'),
+          imgSrc: require('../assets/case1.jpg'),
           name1: '西安 | 仰望国际传媒',
           name2: '门头设计制作'
         }, {
-          imgSrc: require('../img/case1.jpg'),
+          imgSrc: require('../assets/case1.jpg'),
           name1: '西安 | 仰望国际传媒',
           name2: '门头设计制作'
         }, {
-          imgSrc: require('../img/case1.jpg'),
+          imgSrc: require('../assets/case1.jpg'),
           name1: '西安 | 仰望国际传媒',
           name2: '门头设计制作'
         }, {
-          imgSrc: require('../img/case1.jpg'),
+          imgSrc: require('../assets/case1.jpg'),
           name1: '西安 | 仰望国际传媒',
           name2: '门头设计制作'
         }
       ],
       pimgs: [
         {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }, {
-          pImgSrc: require('../img/sxzwfw.jpg'),
+          pImgSrc: require('../assets/sxzwfw.jpg'),
           name: '合作伙伴'
         }
       ]

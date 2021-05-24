@@ -1,15 +1,15 @@
 <template>
   <li>
     <div class="pic">
-      <a>
+      <router-link to="/casegeli" tag="a" target="_blank">
         <img :src=casein.imgSrc alt="">
-      </a>
+      </router-link>
     </div>
     <div class="caset1">
-      <a>{{ casein.name1 }}</a>
+      <router-link to="/casegeli" tag="a" target="_blank">{{ casein.name1 }}</router-link>
     </div>
     <div class="caset2">
-      <a>{{ casein.name2 }}</a>
+      <router-link to="/casegeli" tag="a" target="_blank">{{ casein.name2 }}</router-link>
     </div>
   </li>
 </template>

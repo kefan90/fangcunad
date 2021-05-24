@@ -15,7 +15,7 @@
           <p><a href="tel:17030752000">170 3075 2000</a></p>
         </li>
         <li class="li02">
-          <img src="../img/lcjt.png" alt="">
+          <img src="../assets/lcjt.png" alt="">
         </li>
         <li class="li01">
           <span>02</span>
@@ -24,7 +24,7 @@
           <p>了解客户需求</p>
         </li>
         <li class="li02">
-          <img src="../img/lcjt.png" alt="">
+          <img src="../assets/lcjt.png" alt="">
         </li>
         <li class="li01">
           <span>03</span>
@@ -33,7 +33,7 @@
           <p>提供设计方案</p>
         </li>
         <li class="li02">
-          <img src="../img/lcjt.png" alt="">
+          <img src="../assets/lcjt.png" alt="">
         </li>
         <li class="li01">
           <span>04</span>
@@ -48,7 +48,7 @@
           <p>提供设计方案</p>
         </li>
         <li class="li02">
-          <img src="../img/lcjt.png" alt="">
+          <img src="../assets/lcjt.png" alt="">
         </li>
         <li class="li01">
           <span>06</span>
@@ -57,7 +57,7 @@
           <p>下单制作</p>
         </li>
         <li class="li02">
-          <img src="../img/lcjt.png" alt="">
+          <img src="../assets/lcjt.png" alt="">
         </li>
         <li class="li01">
           <span>07</span>
@@ -66,7 +66,7 @@
           <p>验收结款</p>
         </li>
         <li class="li02">
-          <img src="../img/lcjt.png" alt="">
+          <img src="../assets/lcjt.png" alt="">
         </li>
         <li class="li01">
           <span>08</span>

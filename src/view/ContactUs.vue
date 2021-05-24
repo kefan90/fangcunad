@@ -2,7 +2,7 @@
 <div>
   <!-- 大图部分 -->
   <div class="picture">
-    <img src="../img/picture.jpg" alt="">
+    <img src="../assets/picture.jpg" alt="">
   </div>
   <!-- 设置联系电话部分 -->
   <div class="contact">
@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="right">
-        <img src="../img/Large.png" alt="">
+        <img src="../assets/Large.png" alt="">
       </div>
     </div>
   </div>
